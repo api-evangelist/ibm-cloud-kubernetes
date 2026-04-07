@@ -5,11 +5,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
-  - Kubernetes
   - Cloud
-  - Orchestration
+  - Containers
   - IBM
+  - Kubernetes
+  - Orchestration
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -22,9 +22,9 @@ apis:
       IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to cloud services related to IBM Watson, IoT, DevOps, and data analytics.
     humanURL: https://cloud.ibm.com/kubernetes/catalog/create
     tags:
+      - Cloud
       - Containers
       - Kubernetes
-      - Cloud
       - Orchestration
     properties:
       - type: Documentation
