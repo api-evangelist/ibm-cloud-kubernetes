@@ -13,7 +13,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-03-26'
+modified: '2026-04-28'
 specificationVersion: '0.19'
 apis:
   - aid: ibm-cloud-kubernetes:ibm-cloud-kubernetes
@@ -50,6 +50,8 @@ common:
     url: https://cloud.ibm.com/status
   - type: Sign Up
     url: https://cloud.ibm.com/registration
+  - type: Rules
+    url: rules/ibm-cloud-kubernetes-rules.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

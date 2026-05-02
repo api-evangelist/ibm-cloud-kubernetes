@@ -1,0 +1,36 @@
+aid: ibm-cloud-kubernetes:ibm-cloud-kubernetes-rules
+name: IBM Cloud Kubernetes Rules
+description: >-
+  Governance and operational rules for the IBM Cloud Kubernetes Service API
+  artifacts maintained in this repository.
+tags:
+  - Governance
+  - Rules
+  - IBM
+  - Kubernetes
+rules:
+  - name: Specification Format
+    description: >-
+      All API descriptions in this repository must use OpenAPI 3.0 or later in
+      YAML format and live under the openapi/ directory.
+  - name: Authentication
+    description: >-
+      The IBM Cloud Kubernetes Service API requires IBM Cloud IAM bearer
+      tokens; cluster operations also require valid kubeconfig credentials
+      where applicable.
+  - name: Cluster Scope
+    description: >-
+      This index describes the IBM-managed control plane API only; the
+      upstream Kubernetes API exposed inside each cluster is governed by the
+      Kubernetes project itself.
+  - name: Region Awareness
+    description: >-
+      Clients must target the correct regional endpoint; cross-region requests
+      are not supported by the platform.
+  - name: APIs.yml Sync
+    description: >-
+      The apis.yml index in this repository must reference all OpenAPI files
+      under openapi/ and be updated when artifacts change.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
