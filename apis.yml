@@ -29,7 +29,7 @@ apis:
     properties:
       - type: Documentation
         url: https://cloud.ibm.com/docs/containers
-      - type: Getting Started
+      - type: GettingStarted
         url: https://cloud.ibm.com/docs/containers?topic=containers-getting-started
       - type: Pricing
         url: https://cloud.ibm.com/kubernetes/catalog/create
@@ -38,17 +38,17 @@ common:
     url: https://cloud.ibm.com/
   - type: Documentation
     url: https://cloud.ibm.com/docs/containers
-  - type: Getting Started
+  - type: GettingStarted
     url: https://cloud.ibm.com/docs/containers?topic=containers-getting-started
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/IBM-Cloud
   - type: Pricing
     url: https://cloud.ibm.com/kubernetes/catalog/create
   - type: Blog
     url: https://www.ibm.com/blog/
-  - type: Status
+  - type: StatusPage
     url: https://cloud.ibm.com/status
-  - type: Sign Up
+  - type: SignUp
     url: https://cloud.ibm.com/registration
   - type: Rules
     url: rules/ibm-cloud-kubernetes-rules.yml
