@@ -48,7 +48,7 @@ common:
     url: https://www.ibm.com/blog/
   - type: StatusPage
     url: https://cloud.ibm.com/status
-  - type: SignUp
+  - type: Signup
     url: https://cloud.ibm.com/registration
   - type: Rules
     url: rules/ibm-cloud-kubernetes-rules.yml
