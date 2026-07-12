@@ -34,6 +34,10 @@ apis:
       - type: Pricing
         url: https://cloud.ibm.com/kubernetes/catalog/create
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ibm-cloud-kubernetes-domain-security.yml
   - type: Website
     url: https://cloud.ibm.com/
   - type: Documentation
