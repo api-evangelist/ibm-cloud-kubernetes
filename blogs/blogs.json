@@ -2,13 +2,13 @@
   "repo": "ibm-cloud-kubernetes",
   "feeds": [
     {
-      "source": "https://www.ibm.com/blog/",
-      "feed_url": "",
+      "source": "https://cloud.ibm.com/kubernetes/catalog/create",
+      "feed_url": "https://cloud.ibm.com/kubernetes/catalog/create",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 403 Forbidden",
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:47:42Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
