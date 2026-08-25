@@ -1,7 +1,8 @@
 aid: ibm-cloud-kubernetes
 name: IBM Cloud Kubernetes
-description: >-
-  IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to cloud services related to IBM Watson, IoT, DevOps, and data analytics.
+description: IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive
+  user experience, and built-in security for rapid delivery of applications that can be bound to cloud services
+  related to IBM Watson, IoT, DevOps, and data analytics.
 type: Index
 accessModel:
   pricing: freemium
@@ -17,57 +18,64 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-cloud-kubernetes.png
 tags:
-  - Cloud
-  - Containers
-  - IBM
-  - Kubernetes
-  - Orchestration
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/apis.yml
+- Cloud
+- Containers
+- IBM
+- Kubernetes
+- Orchestration
+url: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-04-28'
+modified: '2026-08-21'
 specificationVersion: '0.23'
 apis:
-  - aid: ibm-cloud-kubernetes:ibm-cloud-kubernetes
-    name: IBM Cloud Kubernetes
-    description: >-
-      IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to cloud services related to IBM Watson, IoT, DevOps, and data analytics.
-    humanURL: https://cloud.ibm.com/kubernetes/catalog/create
-    tags:
-      - Cloud
-      - Containers
-      - Kubernetes
-      - Orchestration
-    properties:
-      - type: Documentation
-        url: https://cloud.ibm.com/docs/containers
-      - type: GettingStarted
-        url: https://cloud.ibm.com/docs/containers?topic=containers-getting-started
-      - type: Pricing
-        url: https://cloud.ibm.com/kubernetes/catalog/create
-common:
-  - type: VulnerabilityDisclosure
-    url: security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/ibm-cloud-kubernetes-domain-security.yml
-  - type: Website
-    url: https://cloud.ibm.com/
+- aid: ibm-cloud-kubernetes:ibm-cloud-kubernetes
+  name: IBM Cloud Kubernetes
+  description: IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive
+    user experience, and built-in security for rapid delivery of applications that can be bound to cloud services
+    related to IBM Watson, IoT, DevOps, and data analytics.
+  humanURL: https://cloud.ibm.com/kubernetes/catalog/create
+  tags:
+  - Cloud
+  - Containers
+  - Kubernetes
+  - Orchestration
+  properties:
   - type: Documentation
     url: https://cloud.ibm.com/docs/containers
   - type: GettingStarted
     url: https://cloud.ibm.com/docs/containers?topic=containers-getting-started
-  - type: GitHubOrganization
-    url: https://github.com/IBM-Cloud
   - type: Pricing
     url: https://cloud.ibm.com/kubernetes/catalog/create
-  - type: Blog
-    url: https://www.ibm.com/blog/
-  - type: StatusPage
-    url: https://cloud.ibm.com/status
-  - type: Signup
-    url: https://cloud.ibm.com/registration
-  - type: Rules
-    url: rules/ibm-cloud-kubernetes-rules.yml
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: product
+  x-generated-by: ibm-family:2026-08-21
+- type: VulnerabilityDisclosure
+  url: security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ibm-cloud-kubernetes-domain-security.yml
+- type: Website
+  url: https://cloud.ibm.com/
+- type: Documentation
+  url: https://cloud.ibm.com/docs/containers
+- type: GettingStarted
+  url: https://cloud.ibm.com/docs/containers?topic=containers-getting-started
+- type: GitHubOrganization
+  url: https://github.com/IBM-Cloud
+- type: Pricing
+  url: https://cloud.ibm.com/kubernetes/catalog/create
+- type: Blog
+  url: https://www.ibm.com/blog/
+- type: StatusPage
+  url: https://cloud.ibm.com/status
+- type: Signup
+  url: https://cloud.ibm.com/registration
+- type: Rules
+  url: rules/ibm-cloud-kubernetes-rules.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-parent: ibm
+x-relationship: product
