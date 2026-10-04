@@ -33,7 +33,7 @@ tags:
 - Containers
 - IBM
 - Kubernetes
-- Orchestration
+- Container Orchestration
 url: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/apis.yml
 created: '2026-03-26'
 modified: '2026-08-21'
@@ -90,3 +90,5 @@ maintainers:
   email: kin@apievangelist.com
 x-parent: ibm
 x-relationship: product
+x-tags-removed:
+- Orchestration
