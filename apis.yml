@@ -58,6 +58,12 @@ apis:
   - type: Pricing
     url: https://cloud.ibm.com/kubernetes/catalog/create
 common:
+- type: Plans
+  url: plans/ibm-cloud-kubernetes-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/ibm-cloud-kubernetes-rate-limits.yml
+- type: FinOps
+  url: finops/ibm-cloud-kubernetes-finops.yml
 - type: ParentCompany
   url: https://apis.io/providers/ibm/
   name: Ibm
